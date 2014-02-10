@@ -1,0 +1,111 @@
+* {
+	margin: 0px 0px;
+	padding: 0px 0px;
+}
+#top {
+	height: 132px;
+	background-image: url('top_background.png');
+	background-repeat: repeat-x;
+	width: 1100px;
+}
+#main {
+	height: 640px;
+	background-color: black;
+	width:1100px;
+}
+#logo {
+	width: 680px;
+	float:left;
+	padding-left:12px;
+	margin-bottom: 2px;
+}
+	#logo img{
+		height: 68px;
+}
+#call {
+	width: 340px;
+	float:right;
+	margin-top: 30px;
+}
+	#call h2 {
+		font-size:18px;
+		text-transform: uppercase;
+}
+#nav{
+	clear: both;
+	background-color: #F4F4F4;
+	height: 62px;
+}
+	#nav ul{
+		list-style-type: none;
+		background: -webkit-linear-gradient(top, #f4f7f8 0%,#e2e8e7 31%,#d6dde2 50%, #F4F4F4 100%); 
+		border-top: 1px solid #999999;
+		clear:left;
+	}
+	#nav li {
+		display: inline-block;
+		border-right: 1px solid #CCCCCC;
+		padding: 10px 15px;
+		float:left;
+		border-left: 1px solid #FFFFFF;
+		background: -webkit-linear-gradient(top, #f4f7f8 0%,#e2e8e7 31%,#d6dde2 50%, #F4F4F4 100%); 
+	}
+	#nav li:first-child{
+		padding: 17px 20px;
+	}
+	#nav li:last-child {
+		padding: 17px;
+		border-right:none;
+		width: 240px;
+
+	}
+	#nav a {
+		color: #666666;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-weight: bold;
+		font-size: 11px;
+}
+#left_pic {
+	padding-top: 15px;
+	padding-left: 38px ;
+	float:left;
+}
+	#left_pic img{
+		height: 258px;
+		width: 380px;
+		border: 5px solid #FFFFFF;
+}
+.header{
+	background: -webkit-linear-gradient(top, #ffd054 0%,#ffce54 53%,#ffc710 54%, #ffce4d 100%);
+	text-transform: uppercase;
+	padding: 6px 0px 8px 10px;
+	font-size:11px;
+	color:black;
+}
+#about {
+	width: 570px;
+	height:266px;
+	background: -webkit-linear-gradient(left, #777777 0%,#81827e 16%,#333333 100%);
+	color: white;
+	float:left;
+	margin-left: 20px;
+	margin-top: 15px;
+	border: 1px solid #555555;
+}
+	#about h4 {
+		font-size: 16px;
+		padding: 16px 0px 12px 16px;
+		font-weight: normal;
+	}
+	#about p {
+		font-size: 14px;
+		padding: 0px 16px 16px 16px;
+		line-height: 15px;
+}
+#def {
+	clear: both;
+}
+.info {
+
+}
