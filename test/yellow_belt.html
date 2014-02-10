@@ -1,0 +1,85 @@
+<! DOCTYPE html>
+
+<html>
+  <head>
+    <title>Yellow Belt Exam</title>
+    <link rel="stylesheet" type="text/css" href="yellow_belt_style.css">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+    <script type="text/javascript">
+      $('document').ready(function() {
+       $('#middle_picture').click(function() {
+          $('#middle_picture img').toggle();
+        });
+      });
+    </script>
+  </head>
+
+  <body>
+    <div id="top_wrapper">
+      <img src = "pics/logo.png" alt = "logo"> 
+      <div id="banner">
+        <ul>
+          <li><a href ="">Site Map</a></li>
+          <li><a href ="">Sign In</a></li>
+        </ul>
+        <div id="search_box">
+          <form>
+            <input type="text" name="search" placeholder=" search this site" />
+            <input id="button" type="submit" value="search"/>
+          </form>
+        </div>
+      </div>
+      <ul id="nav">
+        <li><a href ="">Home</a></li>
+        <li><a href ="">About</a></li>
+        <li><a href ="">Articles</a></li>
+        <li><a href ="">Broadcasts</a></li>
+        <li><a href ="">Newsletter</a></li>
+        <li><a href ="">Contact Us</a></li>
+        <li><a href ="">Resources</a></li>
+        <li><a href ="">Donate</a></li>
+      </ul>
+    </div>
+    <div id="content_wrapper">
+      <div id="left_content">
+        <h2>Who We Are</h2>
+        <p>...all about helping <u>YOU</u> with life skills. At PLF.org we provide "fully loaded" information and guidance for personal and family issues. This iup to date information is provided by well-seasoned licensed professional therapists from the <a href="">Center For Family Healing</a>. <span class= "italic">Our information is not meant to be therapy. For serious problems contact a licensed professional. Content contains a Christian world view.</span></p>
+        <a class="btn" href="">Our Staff</a>
+        <a class="btn" href="">Our Mission</a>
+      </div>
+      <div id="right_whatsnew">
+        <h2>what's new?</h2>
+        <p><span class="bold">Cadence 91</span><br>Cadence 91 is a poetic prayer based on Psalm 91. It poignantly depicts th physical, emotional &amp; spiritual trials of war and how the great love and secutiry of Jesus Christ will not fail.<br><a href="">Read More...</a></p>
+      </div>
+      <div id = "right_askrosa">
+        <h3>Ever wanted to ask a personal question but felt uncomfortable asking face to face?</h3>
+        <h4>click here to ask:</h4>
+        <a href=""><img src ="pics/dear_rosa_button.png" alt="dear rosa" /></a>
+      </div>
+      <div id="middle_picture">
+        <img src="pics/awkward_man_and_boy.png" alt="man/body" />
+      </div>
+      <div id="middle_resources">
+        <h2>Resources for Families</h2>
+          <img src="pics/dad_and_daughter.png" alt="dad/daughter" />
+          <h3>Parenting</h3>
+          <ul>
+            <li><a href ="">Children</a></li>
+            <li><a href ="">Adolescents</a></li>
+            <li><a href ="">Adult Children</a></li>
+          </ul>
+          <div id="clear"></div>
+          <img src="pics/dad_and_daughter.png" alt="dad/daughter" />
+          <h3>Relationship Building</h3>
+          <ul>
+            <li><a href ="">Marriage</a></li>
+            <li><a href ="">Family</a></li>
+            <li><a href ="">Singles</a></li>
+            <li><a href ="">Friendships</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

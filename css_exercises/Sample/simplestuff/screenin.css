@@ -1,0 +1,42 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+#id_logo {
+	float:left;
+	background-color: yellow;
+	border: 10px solid black;
+}
+#search_bar {
+	background-image: url("http://enriquepascal.com/wp-content/uploads/2010/11/magnifying-glass.gif");
+	background-size: 40px 20px;
+	width: 40px;
+}
+#nav {
+	
+	float:left;
+	border: 10px solid black;
+}
+#left {
+		float:left;
+		border: 10px solid black;
+		width: 500px;
+}
+	#left form{
+		padding-top: 20px;
+
+		width: 300px;
+		
+	}
+	#left img {
+		width: 100px;
+		height: 200px;
+	}
+#main {
+	
+	width: 500px;
+	border: 10px solid black;
+	clear: both;
+
+}
+
